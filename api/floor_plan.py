@@ -119,7 +119,7 @@ async def generate_3d_floor_plan_image(
     """
     Generate a photorealistic 3D home visualization from a floor plan.
     
-    Uses Gemini 2.5 Flash Image to create stunning 3D renders.
+    Uses Gemini 3 to create stunning 3D renders.
     For PDFs, first extracts description then generates based on that.
     """
     api_key = os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_API_KEY")

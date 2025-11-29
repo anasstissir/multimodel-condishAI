@@ -98,7 +98,7 @@ condish-ai/
 
 - **Backend**: FastAPI, Python, Google Gemini AI
 - **Frontend**: React, Vite, Framer Motion, Zustand
-- **AI**: Gemini 2.5 Flash Image (for 3D generation)
+- **AI**: Gemini 3 pro (for 3D generation)
 
 ## The Condish Workflow
 
