@@ -1,0 +1,22 @@
+[project]
+name = "condish-ai"
+version = "1.0.0"
+description = "AI-powered property condition capture & comparison for fair handovers"
+authors = [
+    {name = "Condish.ai Team"},
+]
+dependencies = [
+    "google-genai>=1.0.0",
+    "fastapi>=0.111.0,<1.0.0",
+    "uvicorn[standard]>=0.30.1,<1.0.0",
+    "python-multipart>=0.0.9,<1.0.0",
+    "pydantic>=2.0.0",
+]
+requires-python = ">=3.10,<3.14"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["api"]
